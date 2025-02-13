@@ -4,7 +4,7 @@ import os
 
 # Step 1: Configure the Google Generative AI API
 # Replace "GEMINI_API_KEY with your actual API key
-api_key = os.getenv("GEMINI_API_KEY") or "GEMINI_API_KEY"
+api_key = os.getenv("GEMINI_API_KEY") or "AIzaSyAuPij3vtMkyLaH6RFVsqSg-lEugoKUPE4"
 ai.configure(api_key=api_key)
 
 # Step 2: Define the system prompt for the AI model
